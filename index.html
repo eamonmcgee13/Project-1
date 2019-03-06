@@ -12,9 +12,52 @@
 
 <style>
     
+      #ten img {
+        position: absolute;
+        bottom: -2700px;
+        right: 0px;
+        z-index: -1;
+    }
+    
+    
+    #t img {
+        position: absolute;
+        bottom: -2400px;
+        left: 0px;
+        z-index: -1;
+    }
+    
+    
+    
+      #jeep img {
+        position: absolute;
+        bottom: -3400px;
+        left: 0px;
+        z-index: -1;
+    }
+         #crying audio {
+        position: absolute;
+        bottom: -3400px;
+        right: 0px;
+        z-index: -1;
+    }
+    
+    
+     #aaron img {
+        position: absolute;
+        bottom: -2000px;
+        right: 150px;
+        z-index: 0;
+    }
+    
+    div {
+        cursor: crosshair;
+    }
+    
+    
     .parallax {
   
-  background-image: url("giphy.gif");
+        background-image: url("giphy.gif");
 
 
   min-height: 500px; 
@@ -43,11 +86,31 @@
   margin-right: 200px;
   background-attachment: fixed;
     
-@-webkit-keyframes colorchange {
-     0%  {background: #ff4d4d}
-   
-    100% {background: #ffffff;}
-    }
+    
+    
+    
+    
+    a:link {
+  color: darkred; 
+  background-color: transparent; 
+  text-decoration: none;
+}    
+            a:visited {
+  color: darkred;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: darkred;
+  background-color: transparent;
+  text-decoration: none;
+    
+
 </style> 
     
     
@@ -57,9 +120,9 @@
     
     <div style="height:1000px;background-color:clear;font-size:36px">
     
-    <marquee direction="down" width="1000" height="1000" behavior="alternate" style="border:none">
+     <marquee direction="down" width="1000" height="1000" behavior="alternate" style="border:none">
         <marquee behavior="alternate">
-            <h1 id=".died">BUT THATS HOW WE DIED</h1></marquee></marquee>
+            <h1 id=".died"><a href="https://www.asirt.org/safe-travel/road-safety-facts/">BUT THATS HOW WE DIED</a></h1></marquee></marquee>
     <p class="died">
 <br>I would say I'm sorry
 <br>If I thought that it would change your mind
@@ -104,13 +167,34 @@
     
     </body>
     
-    <video width="400" height="250" controls>
+    <video width="400" height="250" controls autoplay>
     
   <source src="fire.mp4" type="video/mp4">
 
   
 </video>
-
-<img src="aaron.png" alt="aaron">
+<div id="jeep">
+    <img src="jeep.png"></div>
     
-    <img src="t.png" alt="t">
+    
+    <div id="aaron"> <a href="https://www.youtube.com/watch?v=jTj1TtXHKG0">
+        <img id="aaron" src="aaron.png" alt="aaron"></a>
+    </div>
+   
+    <div id="t">
+    <img id="t" src="t.png" alt="t"></div>
+   
+    
+    <div id="ten">
+<img id="tenor" src="tenor.gif" alt="tenor">
+    </div>
+
+<div id="crying">
+<audio controls autoplay loop>
+  <source src="crying.mp3" type="audio/mpeg">
+    </audio></div>
+
+
+</html>
+
+
