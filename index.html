@@ -14,15 +14,26 @@
     
       #ten img {
         position: absolute;
-        bottom: -2700px;
+        bottom: -2100px;
         right: 0px;
         z-index: -1;
     }
     
     
+    
+    #dream marquee {
+        position: absolute;
+        bottom: -1700px;
+        right: -200px;
+        z-index: -1;
+    }
+    
+    
+    
+    
     #t img {
         position: absolute;
-        bottom: -2400px;
+        bottom: -1300px;
         left: 0px;
         z-index: -1;
     }
@@ -31,13 +42,13 @@
     
       #jeep img {
         position: absolute;
-        bottom: -3400px;
+        bottom: -2300px;
         left: 0px;
         z-index: -1;
     }
          #crying audio {
         position: absolute;
-        bottom: -3400px;
+        bottom: -2500px;
         right: 0px;
         z-index: -1;
     }
@@ -45,14 +56,36 @@
     
      #aaron img {
         position: absolute;
-        bottom: -2000px;
-        right: 150px;
+        bottom: -1000px;
+        right: -1100px;
         z-index: 0;
     }
+    
+    
+    
+    #button button {
+        position: absolute;
+        bottom: -2350px;
+        left: 200px;
+        z-index: -1;
+    }
+    
+    
     
     div {
         cursor: crosshair;
     }
+    
+    
+    
+      body {
+        background-image: url("Boys Dont Cry.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+  background-attachment: fixed;
+    
+}
     
     
     .parallax {
@@ -69,22 +102,10 @@
   background-size: cover;
 }
     
+*{position:relative}<table><input></table>
     
-    
-  body {-webkit-animation: colorchange 30s infinite; 
-        background-image: url("Boys Dont Cry.png");
-  background-repeat: no-repeat;
-  background-position: right top;
-  margin-right: 200px;
-  background-attachment: fixed;
-    
-}
-    
-     background-image: url("Boys Dont Cry.png");
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  margin-right: 200px;
-  background-attachment: fixed;
+
+
     
     
     
@@ -122,7 +143,7 @@ a:active {
     
      <marquee direction="down" width="1000" height="1000" behavior="alternate" style="border:none">
         <marquee behavior="alternate">
-            <h1 id=".died"><a href="https://www.asirt.org/safe-travel/road-safety-facts/">BUT THATS HOW WE DIED</a></h1></marquee></marquee>
+            <h1 id=".died"><a href="https://www.asirt.org/safe-travel/road-safety-facts/"target="_blank">BUT THATS HOW WE DIED</a></h1></marquee></marquee>
     <p class="died">
 <br>I would say I'm sorry
 <br>If I thought that it would change your mind
@@ -162,7 +183,9 @@ a:active {
 </p>
     </div>
 
-
+<div id="dream">
+        <a href="https://www.youtube.com/watch?v=jTj1TtXHKG0"target="_blank"><h1 id=".dream"><marquee>Just a dream...
+            </marquee></h1></a></div>
     
     
     </body>
@@ -177,13 +200,14 @@ a:active {
     <img src="jeep.png"></div>
     
     
-    <div id="aaron"> <a href="https://www.youtube.com/watch?v=jTj1TtXHKG0">
+    <div id="aaron"> <a href="https://www.youtube.com/watch?v=jTj1TtXHKG0"target="_blank">
         <img id="aaron" src="aaron.png" alt="aaron"></a>
     </div>
    
     <div id="t">
     <img id="t" src="t.png" alt="t"></div>
    
+    
     
     <div id="ten">
 <img id="tenor" src="tenor.gif" alt="tenor">
@@ -195,6 +219,9 @@ a:active {
     </audio></div>
 
 
+    <div id="button">
+    <button type="button" 
+            onclick="window.open('', '_self', ''); window.close();">CRASH</button></div>
 </html>
 
 
